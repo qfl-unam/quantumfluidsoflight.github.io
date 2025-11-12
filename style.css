@@ -69,3 +69,24 @@ footer {
   margin-top: 2rem;
   font-size: 0.9rem;
 }
+
+/* --- Botón de cambio de idioma --- */
+.language-switch {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+}
+
+.language-switch a {
+  color: #a9bcd0;
+  background-color: #1c2541;
+  padding: 6px 12px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.language-switch a:hover {
+  background-color: #3a86ff;
+  color: #fff;
+}
