@@ -29,7 +29,11 @@ header p {
 }
 
 nav {
-  margin-top: 1rem;
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
 }
 
 nav a {
@@ -100,15 +104,38 @@ figure {
 body::before {
   content: "";
   position: fixed;
-  top: 300px;          /* bajar el logo para que no choque con el header */
+  top: 200px;          /* bajar el logo para que no choque con el header */
   left: 0;
   width: 100%;
   height: 100%;
   background-image: url('img/logo.jpeg'); /* cambia por la ruta de tu logo */
   background-repeat: no-repeat;
   background-position: center top;
-  background-size: 75%; /* ajusta tamaño del logo */
+  background-size: 59%; /* ajusta tamaño del logo */
   opacity: 0.075;        /* transparencia del logo */
   z-index: -1;          /* lo envía detrás de todo */
   pointer-events: none; /* evita que interfiera con clics */
+}
+
+/* -- Tarjetas para artículos -- */
+.pub-card {
+  background: #ffffffd8;
+  border-left: 7px solid #3a86ff;
+  padding: 8px 15px;
+  margin-bottom: 1rem;
+  border-radius: 6px;
+}
+
+.pub-title {
+  font-weight: 600;
+  margin: 0;
+}
+
+.pub-authors, .pub-journal {
+  margin: 3px 0;
+  color: #444;
+}
+
+.pub-link {
+  font-size: 0.9rem;
 }
