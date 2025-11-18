@@ -122,3 +122,32 @@ body::before {
   padding-left: 0;
   margin: 1.5rem 0;
 }
+
+/* Estilo de los laboratorios */
+.labs-section {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.lab-entry {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  align-items: center;
+  gap: 20px;
+}
+
+.lab-entry img {
+  width: 100%;
+  border-radius: 8px; /* opcional */
+}
+
+.lab-info h3 {
+  margin-top: 0;
+  font-size: 1.4rem;
+}
+
+.lab-info a {
+  text-decoration: none;
+  color: inherit; /* mantiene tus colores actuales */
+}
