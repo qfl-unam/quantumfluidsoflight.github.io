@@ -117,25 +117,8 @@ body::before {
   pointer-events: none; /* evita que interfiera con clics */
 }
 
-/* -- Tarjetas para artículos -- */
-.pub-card {
-  background: #ffffffd8;
-  border-left: 7px solid #3a86ff;
-  padding: 8px 15px;
-  margin-bottom: 1rem;
-  border-radius: 6px;
-}
-
-.pub-title {
-  font-weight: 600;
-  margin: 0;
-}
-
-.pub-authors, .pub-journal {
-  margin: 3px 0;
-  color: #444;
-}
-
-.pub-link {
-  font-size: 0.9rem;
+.pub-list {
+  list-style-type: none;    /* quita las viñetas */
+  padding-left: 0;
+  margin: 1.5rem 0;
 }
